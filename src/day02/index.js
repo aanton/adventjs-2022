@@ -1,3 +1,8 @@
+/**
+ * @param {number} year
+ * @param {string[]} holidays
+ * @returns {number}
+ */
 function countHours(year, holidays) {
   return (
     holidays

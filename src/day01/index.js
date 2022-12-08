@@ -1,3 +1,7 @@
+/**
+ * @param {string[]} gifts
+ * @returns {string[]}
+ */
 function wrapping(gifts) {
   return gifts.map(gift => {
     const horizontalLine = '*'.repeat(gift.length + 2)
