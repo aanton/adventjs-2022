@@ -27,6 +27,7 @@ npm run test day04
 | 2   | Nobody wants to do extra hours at work   | [rules](https://adventjs.dev/challenges/2022/2) | [tests](./src/day02/index.test.js) | [code](./src/day02/index.js) |
 | 3   | How many packs of gifts can Santa carry? | [rules](https://adventjs.dev/challenges/2022/3) | [tests](./src/day03/index.test.js) | [code](./src/day03/index.js) |
 | 4   | Box inside a box and another...          | [rules](https://adventjs.dev/challenges/2022/4) | [tests](./src/day04/index.test.js) | [code](./src/day04/index.js) |
+| 5   | Optimizing Santa's trips                 | [rules](https://adventjs.dev/challenges/2022/5) | [tests](./src/day05/index.test.js) | [code](./src/day05/index.js) |
 
 ## 💖 Acknowledgements
 
