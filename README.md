@@ -21,9 +21,10 @@ npm run test day04
 
 ## 🕹️ Challenges
 
-| Day | Name                                | Rules                                           | Tests                              | Code                         |
-| --- | ----------------------------------- | ----------------------------------------------- | ---------------------------------- | ---------------------------- |
-| 1   | Automating Christmas gift wrapping! | [rules](https://adventjs.dev/challenges/2022/1) | [tests](./src/day01/index.test.js) | [code](./src/day01/index.js) |
+| Day | Name                                   | Rules                                           | Tests                              | Code                         |
+| --- | -------------------------------------- | ----------------------------------------------- | ---------------------------------- | ---------------------------- |
+| 1   | Automating Christmas gift wrapping!    | [rules](https://adventjs.dev/challenges/2022/1) | [tests](./src/day01/index.test.js) | [code](./src/day01/index.js) |
+| 2   | Nobody wants to do extra hours at work | [rules](https://adventjs.dev/challenges/2022/2) | [tests](./src/day02/index.test.js) | [code](./src/day02/index.js) |
 
 ## 💖 Acknowledgements
 
