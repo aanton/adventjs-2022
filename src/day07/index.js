@@ -5,14 +5,10 @@
  * @returns {string[]}
  */
 function getGiftsToRefill(a1, a2, a3) {
-  return Object.entries(
-    [...new Set(a1), ...new Set(a2), ...new Set(a3)].reduce((acc, gift) => {
-      acc[gift] = (acc[gift] || 0) + 1
-      return acc
-    }, {})
+  return [...new Set([...a1, ...a2, ...a3])].filter(
+    // @ts-ignore
+    value => a1.includes(value) + a2.includes(value) + a3.includes(value) === 1
   )
-    .filter(([, stock]) => stock === 1)
-    .map(([gift]) => gift)
 }
 
 export default getGiftsToRefill
