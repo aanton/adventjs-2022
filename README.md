@@ -29,6 +29,7 @@ npm run test day04
 | 4   | Box inside a box and another...          | [rules](https://adventjs.dev/challenges/2022/4) | [tests](./src/day04/index.test.js) | [code](./src/day04/index.js) |
 | 5   | Optimizing Santa's trips                 | [rules](https://adventjs.dev/challenges/2022/5) | [tests](./src/day05/index.test.js) | [code](./src/day05/index.js) |
 | 6   | Creating xmas decorations                | [rules](https://adventjs.dev/challenges/2022/6) | [tests](./src/day06/index.test.js) | [code](./src/day06/index.js) |
+| 7   | Doing gifts inventory                    | [rules](https://adventjs.dev/challenges/2022/7) | [tests](./src/day07/index.test.js) | [code](./src/day07/index.js) |
 
 ## 💖 Acknowledgements
 
