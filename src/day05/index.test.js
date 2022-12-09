@@ -49,6 +49,14 @@ const cases = [
     maxCities: 1000,
     expected: 115,
   },
+
+  // Additional cases
+  {
+    giftsCities: [50, 36, 72, 70, 40, 30],
+    maxGifts: 109,
+    maxCities: 3,
+    expected: 108,
+  },
 ]
 
 describe('Day 5 challenge', () => {
