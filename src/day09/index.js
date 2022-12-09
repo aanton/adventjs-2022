@@ -3,23 +3,15 @@
  * @returns number
  */
 function countTime(leds) {
-  const ledsOnPositions = leds
-    .map((on, index) => (on === 1 ? index : -1))
-    .filter(index => index !== -1)
+  const ledsOffStrips = leds
+    .join('')
+    .split('1')
+    .map(strip => strip.length)
 
-  // Adds a virtual position to represent the gap between
-  // the last & first positions (circular representation)
-  ledsOnPositions.push(leds.length + ledsOnPositions[0])
+  // Join first & last strips in a unique strip (circular strip)
+  ledsOffStrips[0] += ledsOffStrips.pop()
 
-  const maxGapBetweenLedsOn = ledsOnPositions
-    .slice(1)
-    .reduce(
-      (acc, position, index) =>
-        Math.max(acc, position - ledsOnPositions[index]),
-      0
-    )
-
-  return (maxGapBetweenLedsOn - 1) * 7
+  return Math.max(...ledsOffStrips) * 7
 }
 
 export default countTime
