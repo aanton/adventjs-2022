@@ -12,4 +12,12 @@ function countHours(year, holidays) {
   )
 }
 
+// function countHours(year, holidays) {
+//   return (
+//     holidays
+//       .map(holiday => new Date(`${year}/${holiday}`).getDay())
+//       .filter(weekDay => weekDay && weekDay < 6).length * 2
+//   )
+// }
+
 export default countHours
