@@ -30,10 +30,10 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
 //   const allowedGiftsCities = giftsCities.filter(
 //     giftsCity => giftsCity <= maxGifts
 //   )
-
+//
 //   if (allowedGiftsCities.length <= 1 || maxCities === 1)
 //     return Math.max(0, ...allowedGiftsCities)
-
+//
 //   return Math.max(
 //     ...allowedGiftsCities.map(
 //       (giftsCity, index) =>

@@ -22,7 +22,7 @@ function fitsInOneBox(boxes) {
 //     /** @type {{ l: any; w: any; h: any; }} */ previous,
 //     /** @type {{ l: any; w: any; h: any; }} */ next
 //   ) => previous.l < next.l && previous.w < next.w && previous.h < next.h
-
+//
 //   return boxes
 //     .sort((a, b) => a.l - b.l)
 //     .every(
