@@ -13,4 +13,11 @@ function checkPart(part) {
   )
 }
 
+// function checkPart(part) {
+//   return [...part].some((_, index) => {
+//     const word = part.substring(0, index) + part.substring(index + 1)
+//     return word === [...word].reverse().join('')
+//   })
+// }
+
 export default checkPart
