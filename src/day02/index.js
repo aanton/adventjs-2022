@@ -12,12 +12,17 @@ function countHours(year, holidays) {
   )
 }
 
-// function countHours(year, holidays) {
-//   return (
-//     holidays
-//       .map(holiday => new Date(`${year}/${holiday}`).getDay())
-//       .filter(weekDay => weekDay && weekDay < 6).length * 2
-//   )
-// }
+/**
+ * @param {number} year
+ * @param {string[]} holidays
+ * @returns {number}
+ */
+function countHoursOptimized(year, holidays) {
+  return (
+    holidays.filter(
+      holiday => ![0, 6].includes(new Date(`${year}/${holiday}`).getDay())
+    ).length * 2
+  )
+}
 
-export default countHours
+export {countHours, countHoursOptimized}

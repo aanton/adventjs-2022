@@ -1,4 +1,5 @@
-import countHours from './index'
+import {countHours} from './index'
+// import {countHoursOptimized as countHours} from './index'
 
 // prettier-ignore
 const cases = [
