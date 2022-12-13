@@ -1,4 +1,4 @@
-import distributeGifts from './index'
+import {distributeGifts} from './index'
 
 const cases = [
   {

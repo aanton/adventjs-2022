@@ -9,4 +9,4 @@ function distributeGifts(packOfGifts, reindeers) {
   )
 }
 
-export default distributeGifts
+export {distributeGifts}
