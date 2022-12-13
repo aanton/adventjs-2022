@@ -26,25 +26,31 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
   )
 }
 
-// function getMaxGifts(giftsCities, maxGifts, maxCities) {
-//   const allowedGiftsCities = giftsCities.filter(
-//     giftsCity => giftsCity <= maxGifts
-//   )
-//
-//   if (allowedGiftsCities.length <= 1 || maxCities === 1)
-//     return Math.max(0, ...allowedGiftsCities)
-//
-//   return Math.max(
-//     ...allowedGiftsCities.map(
-//       (giftsCity, index) =>
-//         giftsCity +
-//         getMaxGifts(
-//           allowedGiftsCities.slice(index + 1),
-//           maxGifts - giftsCity,
-//           maxCities - 1
-//         )
-//     )
-//   )
-// }
+/**
+ * @param {number[]} giftsCities
+ * @param {number} maxGifts
+ * @param {number} maxCities
+ * @return {number}
+ */
+function getMaxGiftsOptimized(giftsCities, maxGifts, maxCities) {
+  const allowedGiftsCities = giftsCities.filter(
+    giftsCity => giftsCity <= maxGifts
+  )
 
-export default getMaxGifts
+  if (allowedGiftsCities.length <= 1 || maxCities === 1)
+    return Math.max(0, ...allowedGiftsCities)
+
+  return Math.max(
+    ...allowedGiftsCities.map(
+      (giftsCity, index) =>
+        giftsCity +
+        getMaxGifts(
+          allowedGiftsCities.slice(index + 1),
+          maxGifts - giftsCity,
+          maxCities - 1
+        )
+    )
+  )
+}
+
+export {getMaxGifts, getMaxGiftsOptimized}
