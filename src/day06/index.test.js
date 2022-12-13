@@ -1,4 +1,4 @@
-import createCube from './index'
+import {createCube} from './index'
 
 const cases = [
   {size: 0, expected: ''},
