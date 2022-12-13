@@ -33,6 +33,7 @@ npm run test day04
 | 8   | We need a mechanic!                      | [rules](https://adventjs.dev/challenges/2022/8)  | [tests](./src/day08/index.test.js) | [code](./src/day08/index.js) |
 | 9   | Crazy Xmas lights                        | [rules](https://adventjs.dev/challenges/2022/9)  | [tests](./src/day09/index.test.js) | [code](./src/day09/index.js) |
 | 10  | The Santa Claus sleigh jump              | [rules](https://adventjs.dev/challenges/2022/10) | [tests](./src/day10/index.test.js) | [code](./src/day10/index.js) |
+| 11  | Santa Claus is Scrum Master              | [rules](https://adventjs.dev/challenges/2022/11) | [tests](./src/day11/index.test.js) | [code](./src/day11/index.js) |
 
 ## 💖 Acknowledgements
 
