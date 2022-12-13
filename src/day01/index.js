@@ -11,11 +11,15 @@ function wrapping(gifts) {
   })
 }
 
-// function wrapping(gifts) {
-//   return gifts.map(gift => {
-//     const horizontalLine = '*'.repeat(gift.length + 2)
-//     return horizontalLine + '\n*' + gift + '*\n' + horizontalLine
-//   })
-// }
+/**
+ * @param {string[]} gifts
+ * @returns {string[]}
+ */
+function wrappingOptimized(gifts) {
+  return gifts.map(gift => {
+    const horizontalLine = '*'.repeat(gift.length + 2)
+    return horizontalLine + '\n*' + gift + '*\n' + horizontalLine
+  })
+}
 
-export default wrapping
+export {wrapping, wrappingOptimized}
