@@ -1,4 +1,5 @@
-import fitsInOneBox from './index'
+import {fitsInOneBox} from './index'
+// import {fitsInOneBoxOptimized as fitsInOneBox} from './index'
 
 describe('Day 4 challenge', () => {
   test('all boxes fits in one box', () => {
