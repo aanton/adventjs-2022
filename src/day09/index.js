@@ -14,4 +14,4 @@ function countTime(leds) {
   return Math.max(...ledsOffStrips) * 7
 }
 
-export default countTime
+export {countTime}

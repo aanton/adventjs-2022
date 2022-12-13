@@ -1,4 +1,4 @@
-import countTime from './index'
+import {countTime} from './index'
 
 const cases = [
   {leds: [0, 1, 1, 0, 1], expected: 7},
