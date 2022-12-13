@@ -1,4 +1,4 @@
-import getGiftsToRefill from './index'
+import {getGiftsToRefill} from './index'
 
 const cases = [
   {store1: [], store2: [], store3: [], expected: []},

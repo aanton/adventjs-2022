@@ -11,4 +11,4 @@ function getGiftsToRefill(a1, a2, a3) {
   )
 }
 
-export default getGiftsToRefill
+export {getGiftsToRefill}
