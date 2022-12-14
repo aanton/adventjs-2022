@@ -36,6 +36,7 @@ npm run test day04
 | 11  | Santa Claus is Scrum Master              | [rules](https://adventjs.dev/challenges/2022/11) | [tests](./src/day11/index.test.js) | [code](./src/day11/index.js) |
 | 12  | Electric sleighs, wow!                   | [rules](https://adventjs.dev/challenges/2022/12) | [tests](./src/day12/index.test.js) | [code](./src/day12/index.js) |
 | 13  | Backups for Santa Claus files            | [rules](https://adventjs.dev/challenges/2022/13) | [tests](./src/day13/index.test.js) | [code](./src/day13/index.js) |
+| 14  | The best path                            | [rules](https://adventjs.dev/challenges/2022/14) | [tests](./src/day14/index.test.js) | [code](./src/day14/index.js) |
 
 ## 💖 Acknowledgements
 
