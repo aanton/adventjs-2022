@@ -1,4 +1,5 @@
 import {decorateTree} from './index'
+// import {decorateTreeOptimized as decorateTree} from './index'
 
 const cases = [
   {
