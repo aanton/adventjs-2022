@@ -24,12 +24,11 @@ function checkJump(heights) {
  * @returns boolean
  */
 function checkJumpOptimized(heights) {
-  const maxHeight = Math.max(...heights)
-  const maxHeightIndex = heights.indexOf(maxHeight)
+  const maxHeightIndex = heights.indexOf(Math.max(...heights))
 
   return (
-    heights[0] !== maxHeight &&
-    heights[heights.length - 1] !== maxHeight &&
+    maxHeightIndex > 0 &&
+    maxHeightIndex !== heights.length - 1 &&
     heights
       .slice(1, maxHeightIndex + 1)
       .every((height, index) => height >= heights[index]) &&

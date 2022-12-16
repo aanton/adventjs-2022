@@ -10,6 +10,7 @@ const cases = [
   {heights: [1, 2, 3], expected: false},
   {heights: [1, 2, 3, 2, 1, 2, 3], expected: false},
   {heights: [1, 1000, 900, 800], expected: true},
+  {heights: [2, 2, 2, 2], expected: false},
 ]
 
 describe('Day 10 challenge', () => {
