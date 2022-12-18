@@ -1,5 +1,5 @@
-import {wrapping} from './index'
-// import {wrappingOptimized as wrapping} from './index'
+// import {wrapping} from './index'
+import {wrappingOptimized as wrapping} from './index'
 
 describe('Day 1 challenge', () => {
   it('returns an empty array when no gifts', () => {

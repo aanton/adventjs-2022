@@ -1,5 +1,5 @@
-import {selectSleigh} from './index'
-// import {selectSleighOptimized as selectSleigh} from './index'
+// import {selectSleigh} from './index'
+import {selectSleighOptimized as selectSleigh} from './index'
 
 const cases = [
   {

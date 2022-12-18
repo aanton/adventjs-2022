@@ -1,5 +1,5 @@
-import {getOptimalPath} from './index'
-// import {getOptimalPathOptimized as getOptimalPath} from './index'
+// import {getOptimalPath} from './index'
+import {getOptimalPathOptimized as getOptimalPath} from './index'
 
 const cases = [
   {

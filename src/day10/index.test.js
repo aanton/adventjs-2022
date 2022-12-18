@@ -1,5 +1,5 @@
-import {checkJump} from './index'
-// import {checkJumpOptimized as checkJump} from './index'
+// import {checkJump} from './index'
+import {checkJumpOptimized as checkJump} from './index'
 
 const cases = [
   {heights: [1, 2, 1], expected: true},

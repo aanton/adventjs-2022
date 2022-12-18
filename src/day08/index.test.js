@@ -1,5 +1,5 @@
-import {checkPart} from './index'
-// import {checkPartOptimized as checkPart} from './index'
+// import {checkPart} from './index'
+import {checkPartOptimized as checkPart} from './index'
 
 const cases = [
   {part: 'uwu', expected: true},

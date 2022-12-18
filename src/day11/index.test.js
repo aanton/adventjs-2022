@@ -1,5 +1,5 @@
-import {getCompleted} from './index'
-// import {getCompletedOptimized as getCompleted} from './index'
+// import {getCompleted} from './index'
+import {getCompletedOptimized as getCompleted} from './index'
 
 const cases = [
   {part: '01:00:00', total: '03:00:00', expected: '1/3'},

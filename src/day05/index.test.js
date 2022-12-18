@@ -1,5 +1,5 @@
-import {getMaxGifts} from './index'
-// import {getMaxGiftsOptimized as getMaxGifts} from './index'
+// import {getMaxGifts} from './index'
+import {getMaxGiftsOptimized as getMaxGifts} from './index'
 
 const cases = [
   {
