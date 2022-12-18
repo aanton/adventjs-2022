@@ -39,6 +39,7 @@ npm run test day04
 | 14  | The best path                            | [rules](https://adventjs.dev/challenges/2022/14) | [tests](./src/day14/index.test.js) | [code](./src/day14/index.js) |
 | 15  | Decorating the Christmas tree            | [rules](https://adventjs.dev/challenges/2022/15) | [tests](./src/day15/index.test.js) | [code](./src/day15/index.js) |
 | 16  | Fixing Santa Claus' letters              | [rules](https://adventjs.dev/challenges/2022/16) | [tests](./src/day16/index.test.js) | [code](./src/day16/index.js) |
+| 17  | Carrying gifts in bags                   | [rules](https://adventjs.dev/challenges/2022/17) | [tests](./src/day17/index.test.js) | [code](./src/day17/index.js) |
 
 ## 💖 Acknowledgements
 
