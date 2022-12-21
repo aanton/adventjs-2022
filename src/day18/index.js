@@ -11,4 +11,16 @@ function dryNumber(dry, numbers) {
   )
 }
 
-export {dryNumber}
+/**
+ * @param {number} dry
+ * @param {number} numbers
+ * @returns {number[]}
+ */
+function dryNumberRegex(dry, numbers) {
+  const re = new RegExp(dry.toString())
+  return Array.from({length: numbers}, (_, index) => index + 1).filter(number =>
+    re.test(number.toString())
+  )
+}
+
+export {dryNumber, dryNumberRegex}

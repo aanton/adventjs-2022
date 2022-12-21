@@ -1,4 +1,5 @@
 import {dryNumber} from './index'
+// import {dryNumberRegex as dryNumber} from './index'
 
 const cases = [
   {
