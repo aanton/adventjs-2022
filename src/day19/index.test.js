@@ -1,4 +1,5 @@
 import {sortToys} from './index'
+// import {sortToysAlternative as sortToys} from './index'
 
 const cases = [
   {
