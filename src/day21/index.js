@@ -9,20 +9,17 @@ function printTable(gifts) {
     8
   )
 
-  const printRow = (name, quantity) =>
+  const printRow = (name, quantity, padChar = ' ') =>
     '| ' +
-    name.padEnd(maxNameLength, ' ') +
+    name.padEnd(maxNameLength, padChar) +
     ' | ' +
-    quantity.padEnd(maxQuantityLength, ' ') +
+    quantity.padEnd(maxQuantityLength, padChar) +
     ' |'
 
   const top = '+'.repeat(maxNameLength + maxQuantityLength + 7)
   const bottom = '*'.repeat(maxNameLength + maxQuantityLength + 7)
   const header = printRow('Gift', 'Quantity')
-  const subheader = printRow(
-    '-'.repeat(maxNameLength),
-    '-'.repeat(maxQuantityLength)
-  )
+  const subheader = printRow('', '', '-')
 
   const giftRows = gifts.map(gift =>
     printRow(gift.name, gift.quantity.toString())
