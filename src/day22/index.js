@@ -4,16 +4,10 @@
  * @returns boolean
  */
 function checkStepNumbers(systemNames, stepNumbers) {
-  const stepsBySystem = systemNames.reduce((acc, system, index) => {
-    acc[system] = acc[system] || []
-    acc[system].push(stepNumbers[index])
-
-    return acc
-  }, {})
-
-  return Object.values(stepsBySystem).every(steps =>
-    steps.slice(1).every((step, index) => step >= steps[index])
-  )
+  return systemNames.every((systemName, index) => {
+    const nextIndex = systemNames.indexOf(systemName, index + 1)
+    return nextIndex === -1 || stepNumbers[index] <= stepNumbers[nextIndex]
+  })
 }
 
 export {checkStepNumbers}
