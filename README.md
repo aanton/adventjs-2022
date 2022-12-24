@@ -44,6 +44,7 @@ npm run test day04
 | 19  | Sorting the toys!                        | [rules](https://adventjs.dev/challenges/2022/19) | [tests](./src/day19/index.test.js) | [code](./src/day19/index.js) |
 | 20  | More challenging trips                   | [rules](https://adventjs.dev/challenges/2022/20) | [tests](./src/day20/index.test.js) | [code](./src/day20/index.js) |
 | 21  | Creating the gifts table                 | [rules](https://adventjs.dev/challenges/2022/21) | [tests](./src/day21/index.test.js) | [code](./src/day21/index.js) |
+| 22  | The lights in sync                       | [rules](https://adventjs.dev/challenges/2022/22) | [tests](./src/day22/index.test.js) | [code](./src/day22/index.js) |
 
 ## 💖 Acknowledgements
 
