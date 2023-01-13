@@ -46,6 +46,7 @@ npm run test day04
 | 21  | Creating the gifts table                 | [rules](https://adventjs.dev/challenges/2022/21) | [tests](./src/day21/index.test.js) | [code](./src/day21/index.js) |
 | 22  | The lights in sync                       | [rules](https://adventjs.dev/challenges/2022/22) | [tests](./src/day22/index.test.js) | [code](./src/day22/index.js) |
 | 23  | Santa Claus Compiler                     | [rules](https://adventjs.dev/challenges/2022/23) | [tests](./src/day23/index.test.js) | [code](./src/day23/index.js) |
+| 24  | The last challenge is a maze             | [rules](https://adventjs.dev/challenges/2022/24) | [tests](./src/day24/index.test.js) | [code](./src/day24/index.js) |
 
 ## 💖 Acknowledgements
 
