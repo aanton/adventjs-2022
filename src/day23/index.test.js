@@ -1,4 +1,5 @@
-import {executeCommands} from './index'
+// import {executeCommands} from './index'
+import {executeCommandsOptimized as executeCommands} from './index'
 
 // prettier-ignore
 const cases = [
