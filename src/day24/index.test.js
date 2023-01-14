@@ -1,4 +1,5 @@
-import {canExit} from './index'
+// import {canExit} from './index'
+import {canExitOptimized as canExit} from './index'
 
 // prettier-ignore
 const cases = [
